@@ -2,7 +2,7 @@
 """Writing strings to Redis"""
 import redis
 from uuid import uuid4
-from typing import Union
+from typing import Union, Callable, Optional
 
 
 class Cache:
